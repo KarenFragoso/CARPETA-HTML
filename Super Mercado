@@ -8,7 +8,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-    <title class="titulo">MiniSuper "Karen"</title>
+    <title class="titulo">Super Mercado "ProgWeb"</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
    </nav>
     <header>
         <div class="container">
-            <h1 class="text-center h1 esp">Minisuper "proweb"</h1>
+            <h1 class="text-center h1 esp">Super Mercado "Progweb"</h1>
             <hr>
         </div>
     </header>
@@ -33,7 +33,6 @@
             <a href="#">Contacto</a>
         </nav>
     </div>
-<!-- INICIA LA TIENDA -->
 <section class="store margen">
     <div class="container">
         <div class="items">
@@ -43,6 +42,7 @@
                     <div class="item shadow mb-4 item2 sombra">
                         <h3 class="item-title">Cereal CORN FLAKES</h3>
                         <img class="item-image img-ubi2" src="./img/cereal.jpg">
+                        
 
                         <div class="item-details ">
                             <h4 class="item-price h4 item-details">$40.00</h4>
@@ -55,6 +55,7 @@
                         <h3 class="item-title h3">LECHE 1 LT. ALPURA</h3>
 
                         <img class="item-image img-ubi2" src="./img/leche.jpg">
+                        
 
                         <div class="item-details">
                             <h4 class="item-price h4">$20.00</h4>
@@ -117,8 +118,6 @@
         </div>
     </div>
 </section>
-<!-- cierra elementos de la tienda -->
-    <!-- incia carrito -->
     <section class="shopping-cart">
         <div class="container">
             <h1 class="text-center carrito">CARRITO</h1>
@@ -140,12 +139,8 @@
                     </div>
                 </div>
             </div>
-            <!-- ? incia el guardado de cosas -->
             <div class="shopping-cart-items shoppingCartItemsContainer">
             </div>
-            <!-- ? cierra el guardado -->
-
-            <!-- inicia el total  -->
             <div class="row">
                 <div class="col-12">
                     <div class="shopping-cart-total d-flex align-items-center">
@@ -169,10 +164,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- cierra el total -->
-
-            <!-- inicia el modo de compra-->
             <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
@@ -192,19 +183,13 @@
                 </div>
             </div>
         </div>
-        <!-- cierra el modo de compra-->
-
     </div>
 
 </section>
-<!-- cierrael carrito -->
-<!-- incia parte inferior -->
+
 <footer class="bg-dark p-3 mt-5">
     <p class="text-center m-0 text-muted">Minisuper</p>
 </footer>
-<!-- cierre parte inferior-->
-
-
 
 <!-- SCRIPTS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -222,3 +207,4 @@
 </body>
 
 </html>
+
